@@ -13,7 +13,7 @@
 -->
 
 <script>
-  console.log("test");
+
   setTimeout(function(){
     yt_arr = ["WjYGPy4sfvA"];
     for (i = 0; i <= 4; i++) {
@@ -23,7 +23,7 @@
       div.style.width = "48%";
       div.style.display = "inline-block";
       div.innerHTML = yt_html;
-      console.log(i);
+      document.body.appendChild(div);
     }
 
   }, 3000);
