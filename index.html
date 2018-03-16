@@ -16,9 +16,9 @@
 
   setTimeout(function(){
     yt_arr = ["WjYGPy4sfvA"];
-    for (i = 0; i <= 4; i++) {
+    for (i = 0; i < yt_arr.length; i++) {
       //document.getElementById("demo").innerHTML = "Paragraph changed!";
-      yt_html = '<iframe width="100%" height="420" src="https://www.youtube.com/embed/'+yt_arr[0]+'?controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+      yt_html = '<iframe width="100%" height="420" src="https://www.youtube.com/embed/'+yt_arr[i]+'?controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
       var div = document.createElement("div");
       div.style.width = "48%";
       div.style.display = "inline-block";
